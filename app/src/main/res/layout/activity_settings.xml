@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cont_settings_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.activity.ActivitySettings">
+
+        <fragment
+            android:id="@+id/fragment_navigation_drawer"
+            android:name="com.wiseass.postrainer.ui.fragment.FragmentNavigationDrawer"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:layout="@layout/fragment_navigation_drawer"
+            tools:layout="@layout/fragment_navigation_drawer" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/divider_accent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/btn_settings_disclaimer"
+                style="@style/Button_Settings"
+                android:text="@string/settings_button_disclaimer" />
+
+            <Button
+                android:id="@+id/btn_settings_contact"
+                style="@style/Button_Settings"
+                android:text="@string/settings_button_contact" />
+
+            <TextView
+                android:id="@+id/lbl_settings_version"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:text="@string/settings_version_number"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                />
+
+            <ImageView
+                android:id="@+id/settings_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bracketlogobluelarge"
+
+                />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@+id/cont_settings_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+</RelativeLayout>

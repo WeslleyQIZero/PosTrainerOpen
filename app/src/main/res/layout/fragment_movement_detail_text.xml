@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imb_fragment_detail_description"
+        android:src="@drawable/ic_info_outline_white_24dp"
+        android:layout_toStartOf="@+id/div_fragment_detail_vertical"
+        style="@style/Button_Detail_Frag" />
+
+    <View
+        android:id="@+id/div_fragment_detail_vertical"
+        android:layout_width="1dp"
+        android:background="@drawable/divider_vertical_white"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imb_fragment_detail_steps"
+        android:src="@drawable/ic_format_list_numbered_white_24dp"
+        android:layout_toEndOf="@id/div_fragment_detail_vertical"
+        style="@style/Button_Detail_Frag" />
+
+    <View
+        android:id="@+id/div_fragment_detail_horizontal_left"
+        android:layout_toStartOf="@+id/div_fragment_detail_vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/divider_white"
+        android:layout_below="@id/imb_fragment_detail_description"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:layout_above="@+id/scv_fragment_detail_switcher" />
+
+    <View
+        android:id="@+id/div_fragment_detail_horizontal_right"
+        android:layout_width="match_parent"
+        android:background="@drawable/divider_white"
+        android:layout_below="@id/imb_fragment_detail_steps"
+        android:layout_toEndOf="@id/div_fragment_detail_vertical"
+        android:visibility="gone"
+        android:layout_height="1dp"
+        android:layout_above="@+id/scv_fragment_detail_switcher" />
+
+    <ScrollView
+        android:id="@+id/scv_fragment_detail_switcher"
+        android:layout_below="@id/div_fragment_detail_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextSwitcher
+        android:id="@+id/swi_fragment_detail"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </ScrollView>
+
+</RelativeLayout>

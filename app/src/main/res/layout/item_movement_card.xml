@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crd_movement"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    tools:text="Stretch/Exercise"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/cont_movement_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="4dp">
+
+        <ImageView
+            android:id="@+id/im_movement_thumb"
+            android:layout_width="144dp"
+            android:layout_height="108dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_hip_flexor_stretch" />
+
+        <TextView
+            android:id="@+id/lbl_movement_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/WHITE"
+            android:fontFamily="sans-serif-condensed"
+            tools:text="Pectoralis"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            tools:text="Wall Iso. Hold"
+            android:id="@+id/lbl_movement_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/WHITE"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/lbl_movement_target"
+            android:layout_marginTop="4dp" />
+
+
+        <TextView
+            tools:text="@string/disclaimer_body"
+            android:id="@+id/lbl_movement_description"
+            android:layout_below="@+id/im_movement_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/WHITE"
+            android:maxLines="5"
+            android:ellipsize="end" />
+
+        <Button
+            android:id="@+id/btn_movement_detail"
+            android:layout_width="72dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ripple_bg"
+            android:padding="0dp"
+            android:text="@string/movement_menu_guide"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme.Inverse"
+            android:textColor="@color/WHITE"
+            android:layout_alignParentBottom="false"
+            android:layout_below="@+id/lbl_movement_description"
+            android:layout_marginTop="8dp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
