@@ -1,11 +1,24 @@
 # PosTrainerOpen
 Open Source version of my App, Postrainer. This version includes all source code, but contains minimal text and image assets.
 
+If you are interested in learning Beginner Android Development, or just would like to support me, check out the following links:<br>
+Youtube Tutorials for Android Development - youtube.com/wiseass <br>
+Written Tutorials for Android Development - wiseassblog.com <br>
+
+Social Media:<br>
+facebook.com/wiseassblog <br>
+google.com/+wiseass <br>
+
+Primary Website:<br>
+wiseassblog.com
+
+
+
 <h2>Todo</h2>
--Migrate to using ContentProvider instead of Asynctasks for Database CRUD
--Use RxJava to threading managing loading screens
--Clean up ActivityAlarmReceiver.class
--Improve UI for ActivityMovementDetail.class
+-Migrate to using ContentProvider instead of Asynctasks for Database CRUD<br>
+-Use RxJava to threading managing loading screens<br>
+-Clean up ActivityAlarmReceiver.class<br>
+-Improve UI for ActivityMovementDetail.class<br>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
