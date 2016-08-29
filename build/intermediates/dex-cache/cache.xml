@@ -2,123 +2,186 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.5\jars\classes.jar"
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="4a9f97c742d058ca55948643c06f447895a9af76">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.zhanghai.android.materialprogressbar-library-1.1.5_f6f090de1c7319d8ece451efdce78fa4a18b11d2\classes.dex" />
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_1b35b8eb06c4fff084e6fa1d840ef87a9f2455b6.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_604abe8bad8761b1aa519aecc6b956e760d55449\classes.dex" />
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.0_d4ea586195a5d74b18d23824750fec1e7c19a1ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_4609f9ed593d685cd4bdd4d05a139a3c7c379fec.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_b403f8917191bd000032e81a68490065d3ec5cd9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_405a2a40c9f65bb809fc27e4fe55ed9218c1c047.jar" />
     </item>
     <item
         jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="a8c7029f0bc5b929dbb2fdd05afc487f33811497">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7b9d5be8da0ab0a201398060c18a6c9f336f58b7\classes.dex" />
+        sha1="3e264fc02098a583a97d6e490e721c732caa02b2">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7b9d5be8da0ab0a201398060c18a6c9f336f58b7.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_747cd34798b252e9b582648fd8adb6d273d8a1a3\classes.dex" />
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_cf3a500043aa31a384b9d4e8de85d7d964eb86d3.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_5dce28aaa3a930a3dbc8a8841bb99dab25b957fe\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_8ecc2b4f3c90afdf212d6d4121b89067fafb5c06\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_b4d191ae29719d63e2e3bbf52a53bcd28cc6abd3\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_d870a38364a2fabec669893bc29b28dcefd0190a\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_398f6c4b96e9f5cce04a54b4d8bb52119f516eac\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_85f8a037d3cc4d4b26248a0cace8562acfaacf09\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_f6f3f4d0a1d5b12c9450325d2e47affc6ca55b48\classes.dex" />
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_bf6e2bd39a7f612b9b3ae7b6f93a8c5340150aed.jar" />
     </item>
     <item
         jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="0da7b253f57e2ea0c895f9a87823106857b7ef5d">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4acb518c637708c7729ce5b8e5c8c5f18c7314ff\classes.dex" />
+        sha1="9a8d43dbe170f7f1b8489082243c8382052bd0af">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\instant-run_4acb518c637708c7729ce5b8e5c8c5f18c7314ff.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.github.afollestad.material-dialogs\core\0.8.5.7\jars\classes.jar"
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="a94e3ac390a37f149a235f7f5e1b49b65151c0bf">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.afollestad.material-dialogs-core-0.8.5.7_6f9fa1e79ad6d40267a7e04441bde6211879efe8\classes.dex" />
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_cc579d8853f2cf4a9989d3c95e2f95b7ea10237c.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_9f16d104ddc9c11ffa664bc198e21e10b46f246c\classes.dex" />
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_66f98840df9ce783ecf33aef23e9b5ad53b6159c.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.github.afollestad.material-dialogs\commons\0.8.5.7\jars\classes.jar"
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="8064f2524ddf3818e300fa545e538071ecf84462">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.afollestad.material-dialogs-commons-0.8.5.7_dab991b92241382e00774773bdc35f328ea77366\classes.dex" />
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_45cff1055c0ee3bc8592a4e4fb28bc028499b39e.jar" />
     </item>
     <item
         jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.github.JakeWharton\ViewPagerIndicator\2.4.1\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="14889e022db94047ceadff1cf5e7984139a4eb8e">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.JakeWharton-ViewPagerIndicator-2.4.1_fbcb1ca8731a95ab53f481ba24a8af684aaf0a3b\classes.dex" />
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.github.JakeWharton-ViewPagerIndicator-2.4.1_fbcb1ca8731a95ab53f481ba24a8af684aaf0a3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_f31ec6f5443ce7301b58b6795e3972c54f8c982c.jar" />
     </item>
     <item
         jar="C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_adfffec2098596ba8b8b98bef24fb03a75faf020\classes.dex" />
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_adfffec2098596ba8b8b98bef24fb03a75faf020.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_841afe733f080536a3c2f42819ac52862760d249.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.github.afollestad.material-dialogs\core\0.8.5.7\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a94e3ac390a37f149a235f7f5e1b49b65151c0bf">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.github.afollestad.material-dialogs-core-0.8.5.7_6f9fa1e79ad6d40267a7e04441bde6211879efe8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_14b0dd0b3b3bb8ca38b4535ddfafcc9ebff7bc76.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_a922ea76989822333a5541fce89b3f97263fb4fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_67a00d5512f0a672e62c1b8e16f7924ef2bcf745.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.github.afollestad.material-dialogs\commons\0.8.5.7\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8064f2524ddf3818e300fa545e538071ecf84462">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.github.afollestad.material-dialogs-commons-0.8.5.7_dab991b92241382e00774773bdc35f328ea77366.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.5\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4a9f97c742d058ca55948643c06f447895a9af76">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\me.zhanghai.android.materialprogressbar-library-1.1.5_f6f090de1c7319d8ece451efdce78fa4a18b11d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_c7a3b375aa1f4c33e2a7b698cc5b771e416a8875.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_6569c99f81cac35ffd9a8f5967e1a9c47849c802.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\gson-2.4_604abe8bad8761b1aa519aecc6b956e760d55449.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\Ryan\Desktop\postrainerOS\PosTrainerOpen\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_bb620bdd098154659d896b0f1de4caff785684ec.jar" />
     </item>
 
 </items>

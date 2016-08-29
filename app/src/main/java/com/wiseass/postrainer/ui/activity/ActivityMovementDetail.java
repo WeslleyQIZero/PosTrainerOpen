@@ -107,3 +107,4 @@ public class ActivityMovementDetail extends AppCompatActivity {
         return true;
     }
 }
+

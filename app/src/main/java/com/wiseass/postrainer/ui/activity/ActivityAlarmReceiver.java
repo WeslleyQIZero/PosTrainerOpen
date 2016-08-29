@@ -37,7 +37,7 @@ public class ActivityAlarmReceiver extends AppCompatActivity implements MediaPla
     private PowerManager.WakeLock wakeLock;
     private MediaPlayer mediaPlayer;
 
-    Vibrator vibe;
+    private Vibrator vibe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +72,9 @@ public class ActivityAlarmReceiver extends AppCompatActivity implements MediaPla
                 startActivity(i);
             }
         });
+
         Reminder item = getIntent().getParcelableExtra(BUNDLE_ITEM);
+
         if (!item.isRenewAutomatically()) {
             item.setActive(false);
         }

@@ -31,13 +31,14 @@
     <string name="movement_menu_tab_exercises">EXERCISES</string>
 
     <!-- ActivityMovementDetail -->
-
+    <string name="movement_detail_tab_description">DESCRIPTION</string>
+    <string name="movement_detail_tab_steps">STEPS</string>
 
     <!-- ActivitySettings -->
     <string name="settings_button_about">About</string>
     <string name="settings_button_disclaimer">Disclaimer</string>
     <string name="settings_button_contact">Contact</string>
-    <string name="settings_version_number">Version: 1.0</string>
+    <string name="settings_version_number">Version: 1.3</string>
 
 
     <!-- Dialog -->
@@ -79,6 +80,7 @@
         Youtube Tutorials: youtube.com/wiseass\n
         Facebook: facebook.com/wiseassblog\n
     </string>
+    <string name="stop_alarm">Stop Alarm</string>
 
 
 </resources>

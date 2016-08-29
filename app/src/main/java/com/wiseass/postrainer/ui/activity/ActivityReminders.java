@@ -18,6 +18,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Toast;
 
 import com.wiseass.postrainer.R;
@@ -51,6 +53,7 @@ public class ActivityReminders extends AppCompatActivity
     private FragmentManager manager;
     private Toolbar toolbar;
     private Reminder tempDeletedItem;
+    private Animation scaleUp, scaleDown;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +64,10 @@ public class ActivityReminders extends AppCompatActivity
 
 
         manager = getSupportFragmentManager();
+
+        scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
+        scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
+
 
         if (checkIfDisclaimerAccepted()) {
             setUpNavigationDrawer();
@@ -115,6 +122,8 @@ public class ActivityReminders extends AppCompatActivity
                 Fragment listFrag = FragmentReminderList.newInstance(reminders);
                 FragmentTransaction transaction = manager.beginTransaction();
                 transaction.setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right);
+                toolbar.setVisibility(View.VISIBLE);
+                toolbar.startAnimation(scaleUp);
 
                 transaction.replace(R.id.cont_reminder_fragments, listFrag, FRAG_REMINDER_LIST);
                 transaction.commit();
@@ -126,26 +135,6 @@ public class ActivityReminders extends AppCompatActivity
         reader.execute(AlarmDatabase.getInstance(getApplicationContext()));
     }
 
-    /*
-     * Due to constraints of managing more than one PendingIntent at a time, this method ensures that
-     * only one alarm is active at a given time. It compares the passed in Reminder with all other
-     * existing (but not necessarily active) Reminders. If a reminder is active, but not the Reminder
-     * which was passed to the method, cancel it.
-
-    private void checkForActiveAlarms(Reminder selectedItem) {
-        for (Reminder item : reminders) {
-            if (item.isActive() && item != selectedItem) {
-                item.setActive(false);
-                cancelAlarm();
-            }
-        }
-    }/*
-
-    /**
-     * Sets/Updates an alarm based on an Active Reminder.
-     *
-     * @param reminder - Active Reminder
-     */
     public void setAlarm(Reminder reminder) {
         Log.d("AR", "Alarm Activated");
         if (alarmMgr == null) {
@@ -275,7 +264,10 @@ public class ActivityReminders extends AppCompatActivity
     public void onReminderClicked(int position) {
         Fragment listFrag = FragmentManageReminder.newInstance(reminders.get(position));
         FragmentTransaction transaction = manager.beginTransaction();
+        toolbar.startAnimation(scaleDown);
+        toolbar.setVisibility(View.GONE);
         transaction.setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right);
+
 
         transaction.replace(R.id.cont_reminder_fragments, listFrag, FRAG_MANAGE_REMINDER);
         transaction.commit();
@@ -294,7 +286,7 @@ public class ActivityReminders extends AppCompatActivity
             cancelAlarm(reminder);
             reminder.setActive(false);
         }else {
-           // checkForActiveAlarms(reminder);
+            // checkForActiveAlarms(reminder);
             reminder.setActive(true);
             setAlarm(reminder);
         }
@@ -312,6 +304,9 @@ public class ActivityReminders extends AppCompatActivity
         if (reminders.size() < 6){
             Fragment listFrag = FragmentManageReminder.newInstance();
             FragmentTransaction transaction = manager.beginTransaction();
+            toolbar.startAnimation(scaleDown);
+            toolbar.setVisibility(View.GONE);
+
             transaction.setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right);
 
             transaction.replace(R.id.cont_reminder_fragments, listFrag, FRAG_MANAGE_REMINDER);

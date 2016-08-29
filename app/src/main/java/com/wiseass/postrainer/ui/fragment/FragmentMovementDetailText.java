@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.AppCompatButton;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,7 +27,7 @@ public class FragmentMovementDetailText extends Fragment {
 
     private String movementDescrpition;
     private String[] movementSteps;
-    private ImageButton tabDescription, tabSteps;
+    private AppCompatButton tabDescription, tabSteps;
     private TextSwitcher switcher;
     private View divLeft, divRight;
     private Animation inLeft, inRight, outLeft, outRight;
@@ -54,7 +55,7 @@ public class FragmentMovementDetailText extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_movement_detail_text, container, false);
 
-        tabDescription = (ImageButton) v.findViewById(R.id.imb_fragment_detail_description);
+        tabDescription = (AppCompatButton) v.findViewById(R.id.imb_fragment_detail_description);
         tabDescription.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,7 +63,7 @@ public class FragmentMovementDetailText extends Fragment {
             }
         });
 
-        tabSteps = (ImageButton) v.findViewById(R.id.imb_fragment_detail_steps);
+        tabSteps = (AppCompatButton) v.findViewById(R.id.imb_fragment_detail_steps);
         tabSteps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,10 +82,10 @@ public class FragmentMovementDetailText extends Fragment {
     }
 
     public void onActivityCreated(Bundle savedInstanceState) {
-         inLeft = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_in_left);
+        inLeft = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_in_left);
         inRight = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_in_right);
 
-         outRight = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_out_right);
+        outRight = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_out_right);
         outLeft = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_out_left);
 
         switcher.setFactory(new ViewSwitcher.ViewFactory() {

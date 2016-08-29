@@ -8,9 +8,11 @@
     <Button
         android:layout_width="192dp"
         android:layout_height="96dp"
-        android:text="Stop Alarm"
+        android:text="@string/stop_alarm"
         android:id="@+id/stopAlarm"
+        android:textColor="@color/WHITE"
         android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif-medium"
         android:padding="8dp"
         android:textSize="28sp" />
 </LinearLayout>

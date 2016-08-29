@@ -1,6 +1,7 @@
 package com.wiseass.postrainer.adapter;
 
 import android.content.Context;
+import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -70,7 +71,7 @@ public class MovementListAdapter extends RecyclerView.Adapter<MovementListAdapte
         TextView targets;
         TextView name;
         TextView description;
-        ImageView thumbnail;
+        AppCompatImageView thumbnail;
         Button viewDetails;
 
         public ViewHolder(View itemView) {
@@ -79,7 +80,7 @@ public class MovementListAdapter extends RecyclerView.Adapter<MovementListAdapte
             name = (TextView) itemView.findViewById(R.id.lbl_movement_name);
             targets = (TextView) itemView.findViewById(R.id.lbl_movement_target);
             description = (TextView) itemView.findViewById(R.id.lbl_movement_description);
-            thumbnail = (ImageView) itemView.findViewById(R.id.im_movement_thumb);
+            thumbnail = (AppCompatImageView) itemView.findViewById(R.id.im_movement_thumb);
             viewDetails = (Button)itemView.findViewById(R.id.btn_movement_detail);
 
             viewDetails.setOnClickListener(this);

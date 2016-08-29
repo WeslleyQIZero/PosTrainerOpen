@@ -89,5 +89,4 @@ public class FragmentDisclaimer  extends Fragment {
         //includes a click anywhere except the switch
         void onDisclaimerAccepted();
     }
-
 }
